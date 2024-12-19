@@ -4,14 +4,12 @@ Port scanning is the act of iterating over every port on a machine and checking 
 Why using it ? 
 This tool help security engineers to see if there are potential ways to gain access to your system.
 
-# How to run this program ?
+## How to run this program ?
 
-Copy and rename file "example.env" in ".env" and complete the field with the targeted hostname.
-Then run command: go run main.go
+- Copy and rename file "example.env" in ".env" and complete the field with the targeted hostname.
+- Other options are given like range ports, or list port.
+- Each option is commented/explained on the example.env file given.
+- Then run command: go run main.go
 
-# To Do List:
-
-- dispach in a pretty way the info in a file
-
-sources:
+golang sources:
 https://tutorialedge.net/projects/building-security-tools-in-go/building-port-scanner-go/

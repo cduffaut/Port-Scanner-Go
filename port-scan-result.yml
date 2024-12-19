@@ -1,0 +1,12 @@
+- Port: tcp/1
+  State: Close
+- Port: udp/1
+  State: Open
+- Port: tcp/2
+  State: Close
+- Port: udp/2
+  State: Open
+- Port: tcp/3
+  State: Close
+- Port: udp/3
+  State: Open
